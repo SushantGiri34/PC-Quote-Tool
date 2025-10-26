@@ -1,9 +1,8 @@
 # Custom Computer Quote Generator (Indian Market)
 
-**Author:** Happy / Kaali Computers  
+**Author:** sushant  / Kaali Computers 
 **File:** `pc_quote_generator.py`  
-**Language:** Python 3  
-**Level:** Beginner → Low-Intermediate  
+**Language:** Python 3    
 **Category:** Console Application / Real-world Simulation
 
 ---
@@ -87,5 +86,6 @@ c. 32GB (₹12,000)
 🎟️ Discount applied: 30%
 ✅ FINAL PRICE after discount: ₹45,150.00
 ----------------------------------------
+.
 Thank you for choosing Kaali Computers 💻🇮🇳
 .
