@@ -1,0 +1,90 @@
+# Custom Computer Quote Generator (Indian Market)
+
+**Author:** Happy / Kaali Computers  
+**File:** `pc_quote_generator.py`  
+**Language:** Python 3  
+**Level:** Beginner → Low-Intermediate  
+**Category:** Console Application / Real-world Simulation
+
+---
+
+## 🖥️ Project Overview
+
+This Python project allows users to **customize a computer** by selecting components such as:
+
+- Screen size
+- RAM
+- CPU clock speed
+- Storage
+- Graphics Card
+
+It calculates the **total price** in Indian Rupees (₹), applies **discount codes**, and displays a **detailed quote**. The program also **saves the quote to a text file** and optionally allows deleting it.
+
+---
+
+## 💡 Features
+
+1. **Interactive Console Program:**  
+   Users select options through a simple menu system.
+
+2. **Indian Currency & Formatting:**  
+   All prices are shown in ₹ with commas and decimals.
+
+3. **Discount Codes:**  
+   - `PROMO-10` → 10% discount  
+   - `PROMO-20` → 20% discount  
+   - `PROMO-30` → 30% discount (only if total >= ₹60,000)
+
+4. **Summary Output:**  
+   Prints a professional summary including all components, total price, discount applied, and final price.
+
+5. **Save Quote:**  
+   Saves the quote to `quote.txt` automatically.
+
+6. **Delete Quote Option:**  
+   Allows users to delete the saved quote if they wish.
+
+---
+
+## ⚡ How to Run
+
+1. Make sure you have **Python 3 installed**.  
+2. Download `pc_quote_generator.py`.  
+3. Open terminal or command prompt and navigate to the folder containing the file.  
+4. Run the program:
+
+python pc_quote_generator.py
+Follow the on-screen instructions to select your components and apply a discount code.
+
+📦 Sample Output
+markdown
+Copy code
+🇮🇳 Welcome to the Custom Computer Quote Generator!
+
+Please select your screen size:
+a. 13" (₹4,000)
+b. 15" (₹6,000)
+c. 17" (₹8,000)
+> b
+
+Please select your RAM:
+a. 8GB (₹3,500)
+b. 16GB (₹6,500)
+c. 32GB (₹12,000)
+> b
+
+...
+
+----------------------------------------
+🧾 Your Custom Computer Quote:
+ - Screen Size: 15" (₹6,000)
+ - RAM: 16GB (₹6,500)
+ - CPU: 4.0GHz (₹20,000)
+ - Storage: 1TB SSD (₹7,000)
+ - Graphics Card: High-End (₹25,000)
+----------------------------------------
+💰 TOTAL PRICE: ₹64,500
+🎟️ Discount applied: 30%
+✅ FINAL PRICE after discount: ₹45,150.00
+----------------------------------------
+Thank you for choosing Kaali Computers 💻🇮🇳
